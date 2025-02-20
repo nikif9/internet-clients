@@ -19,3 +19,4 @@
       php migrations/migrate.php
       ```
 4. **Запустите сервер:**
+тестовые логин: test пароль: test123
