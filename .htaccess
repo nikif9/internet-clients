@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Если запрошена корневая директория, перенаправляем в public/
+    RewriteRule ^$ public/ [L]
+
+    # Для всех остальных запросов – перенаправляем в public/
+    RewriteCond %{REQUEST_URI} !^/public/
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>

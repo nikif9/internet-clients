@@ -1,0 +1,12 @@
+.tree-item {
+    cursor: pointer;
+}
+
+.toggle {
+    cursor: pointer;
+    color: blue;
+    margin-left: 5px;
+}
+.list-unstyled ul {
+    margin-left: 20px;
+}
